@@ -1,0 +1,74 @@
+{
+	"db": {
+		"connection": {
+			"success": "Successfully connected to the database.",
+			"error": "Failed connecting to the database."
+		},
+		"crud": {
+			"insert_success": "Successfully registered record.",
+			"update_success": "Successfully updated record.",
+			"delete_success": "Successfully deleted record.",
+			"insert_error": "Error inserting record.",
+			"update_error": "Error updating record.",
+			"delete_error": "Error deleting record.",
+			"confirm_delete": "Do you really want to delete this record?",
+			"fill_error": "Fill in all the required inputs correctly.",
+			"record_not_found": "Record not found."
+		}
+	},
+	"auth": {
+		"success": "User successfully athenticated.",
+		"error": "User not registered or invalid password.",
+		"username_error": "User not registered.",
+		"auth_passoword_error": "Invalid password."
+	},
+	"invalid": {
+		"user": {
+			"first_name": "Invalid first name.",
+			"last_name": "Invalid last name.",
+			"username": "Invalid username.",
+			"date_of_birth": "Invalid birthdate.",
+			"gender": "Invalid gender.",
+			"age": "Invalid age.",
+			"email": "Invalid e-mail.",
+			"phone": "Invalid phone number.",
+			"mobile_phone": "Invalid mobile phone number.",
+			"address": "Invalid address.",
+			"country": "Invalid country.",
+			"state": "Invlid state.",
+			"province": "Invalid province.",
+			"city": "Invalid city.",
+			"district": "Invalid district.",
+			"block": "Invalid block.",
+			"street": "Invalid street.",
+			"number": "Invalid number.",
+			"zipcode": "Invalid ZIP code."
+		},
+		"password": {
+			"is_too_small": "Password too short.",
+			"is_too_long": "Password too long.",
+			"is_too_weak": "Password too weak.",
+			"does_not_match": "Informed password does not match with current one.",
+			"do_not_match": "Informed passwords do not match."
+		},
+		"file": {
+			"format": "Invalid file format",
+			"size": "Invalid file size"
+		},
+		"image": {
+			"file": "Invalid image file",
+			"size": "Invalid image size",
+			"dimensions": "Invalid image dimensions"
+		}
+	},
+	"in_use": {
+		"username": "Username is already in use.",
+		"email": "E-mail address is already in use.",
+		"mobile_phone": "Mobile phone number is already in use."
+	},
+	"request": {
+		"loading": "Loading, please wait...",
+		"no_results": "No results found.",
+		"page_not_found": "Page not found."
+	}
+}

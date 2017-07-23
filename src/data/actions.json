@@ -1,0 +1,8 @@
+{
+	"select": {
+		"country": "Select a country.",
+		"city": "Select a city.",
+		"state": "Select a state.",
+		"gender": "Select a gender."
+	}
+}
