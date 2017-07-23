@@ -1,0 +1,34 @@
+{
+  "name": "multi-language-alerts",
+  "version": "1.0.0",
+  "description": "Reusable general-purpose alert messages in different languages.",
+  "license": "MIT",
+  "repository": "felipecbarelli/multi-language-alerts",
+  "author": {
+    "name": "Felipe Barelli",
+    "url": "github.com/felipecbarelli"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test:lint": "xo",
+    "test:spec": "",
+    "test": "npm run test:lint && npm run test:spec"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "keywords": [
+    "alert messages",
+    "error messages",
+    "different languages"
+  ],
+  "dependencies": {
+    "mstranslator": "^3.0.0",
+    "ramda": "^0.24.1"
+  },
+  "devDependencies": {
+    "xo": "*"
+  }
+}
