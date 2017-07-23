@@ -42,7 +42,7 @@ export MICROSOFT_TRANSLATOR_API_KEY = < your API Key >
 Now let's say you want a simple message which tells you the username you're looking for is alredy in use:
 
 ```js
-const alertFor = require('multi-language-alerts);
+const alertFor = require('multi-language-alerts');
 
 alertFor('in_use/username', 'en')
 	.then(alert => console.log(alert));
